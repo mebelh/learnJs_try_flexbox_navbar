@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    font: normal 1em 'century gothic', sans-serif;
+    text-decoration: underline;
+    outline: none;
+    color: #fff;
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+    padding: 6px;
+    color: #5d5d5d;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+  }
+  
+
+.btn{
+    background-color: #0066ff09;
+    cursor: pointer;
+}
+
+
+.header{
+    background-color: #ffffff;
+    height: 177px;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo_text h1, .logo_text h2, .logo_text h1 a{
+    font: normal 170% 'century gothic';
+}
+
+.logo_text h1 a, .logo_text h1 a:hover{
+    text-decoration: none;
+    color: #406691;
+    letter-spacing: 0.1em;
+}
+
+.logo_text h2{
+    color: #91a1a3;
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+.menubar{
+    display: flex;
+    background-color: #406691;
+}
+
+ul.menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.menu li{
+    list-style: none;
+}
+
+ul.menu li a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 16px;
+    color: #dbdbdb;
+}
+
+ul.menu li.selected a{
+    color: #ffffff;
+}
+
+ul.menu li.menu_main{
+    margin-right: 100px;
+    border-left: solid 1px #00000070;
+    border-right: solid 1px #00000070;
+    font-size: 1.2em;
+    padding: 0 15px 0 0;
+}
+
+ul.menu li.menu_main span{
+    font: normal 0.7em 'trebuchet ms', sans-serif;
+    color: #ececec;
+}
